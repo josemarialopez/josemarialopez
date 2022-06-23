@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "josemarialopez-site": {
+      "hosting": {
+        "josemarialopez": [
+          "josemarialopez-site"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "josemarialopez-site"
+  }
+}
