@@ -16,10 +16,17 @@ body {
 h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: clamp(1rem, 1rem + 10vw, 3.75rem);
-  line-height: clamp(1rem, 1rem + 10vw, 3.75rem);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
   color: #ffffff;
   margin: 0;
+}
+
+@media (min-width: 60em) {
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
 }
 
 h2 {
