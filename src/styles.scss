@@ -16,9 +16,10 @@ body {
 h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: clamp(1rem, 1rem + 10vw, 3.75rem);
+  line-height: clamp(1rem, 1rem + 10vw, 3.75rem);
   color: #ffffff;
+  margin: 0;
 }
 
 h2 {
@@ -27,6 +28,7 @@ h2 {
   font-size: 24px;
   line-height: 24px;
   color: #ffffff;
+  margin: 0;
 }
 
 
@@ -39,7 +41,7 @@ h2 {
 
 .full-page {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -52,4 +54,19 @@ a.button {
   font-weight: 600;
   color: white;
   text-decoration: none;
+}
+
+
+.container {
+  padding: 0 1em;
+  max-width: 60rem;
+  margin: 0 auto;
+
+  &.narrow {
+    max-width: 80ch;
+  }
+}
+
+.text-center {
+  text-align: center;
 }
