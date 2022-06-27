@@ -4,11 +4,56 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 html,
 body,
 input,
 textarea,
 button {
-  font-family: 'San Francisco';
+  font-family: Inter, sans-serif;
+}
+
+body {
+  color: #1d1d1f;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+
+.thin-font {
+  font-weight: 100;
+}
+
+.extralight-font {
+  font-weight: 200;
+}
+
+.light-font {
+  font-weight: 300;
+}
+
+.regular-font {
+  font-weight: 400;
+}
+
+.medium-font {
+  font-weight: 500;
+}
+
+.semibold-font {
+  font-weight: 600;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+.extrabold-font {
+  font-weight: 800;
+}
+
+.black-font {
+  font-weight: 900;
 }
